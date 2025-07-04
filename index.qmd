@@ -1,0 +1,29 @@
+---
+title: "Web Archive Manager"
+---
+
+The Web Archive Manager is part of the toolkit developed by the [Digital Observatory](https://www.digitalobservatory.net.au/) to aid researchers in working
+with web archives.
+
+WAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.
+
+## Installation
+
+::: {.panel-tabset}
+
+## Windows
+
+[WAM (Web Archive Manager)-0.0.1](/files/WAM (Web Archive Manager)-0.0.1.msi)
+
+## MacOS
+
+Currently unavailable
+
+## Linux
+
+Currently unavailable
+
+:::
+
+## Getting started
+
