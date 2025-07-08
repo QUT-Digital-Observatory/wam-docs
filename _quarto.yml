@@ -5,6 +5,7 @@ project:
     - files/*
 
 website:
+  favicon: assets/WAM-logo.png
   navbar:
     logo: assets/WAM-logo.png
     left:
@@ -18,6 +19,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
