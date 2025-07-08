@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Web Archive Manager (WAM)",
+    "section": "",
+    "text": "The Web Archive Manager (WAM) is part of the toolkit developed by the Digital Observatory to aid researchers in working with web archives.\nWAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.\nWAM is being actively developed. Please share your feedback by emailing us at digitalobservatory@qut.edu.au."
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "Web Archive Manager (WAM)",
+    "section": "Installation",
+    "text": "Installation\n\nWindowsMacOSLinux\n\n\nWAM (Web Archive Manager)-0.0.1a\n\n\nCurrently unavailable\n\n\nCurrently unavailable"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Web Archive Manager (WAM)",
+    "section": "Getting started",
+    "text": "Getting started\nIn WAM, you manage web archives by projects. A default project already exists when you start the application.\n\nImporting archives\nTo import archives into your project, select File &gt; Import archives. Only files with .warc and wacz extensions are accepted.\n\nIf the archives are imported successfully, you will see them in the right table.\n\n\nReplaying archives\nTo replay an imported archive, select the archive and click Replay.\n\nOnce in the replay view, you will see a list of recorded pages. If a page is recorded multiple times, you will see all of them in this list. To view only the latest version, tick Deduplicate pages.\nTo replay a page, simply click on the page. To go back to the page list, click Back to List.\n\n\n\nAdding metadata\nIn addition to web archive’s standard metadata, You can annotate your archives by adding custom metadata.\nTo view the archive’s existing data, in the archive view, select an archive and click Edit metadata.\n\nThe standard metadata are file name, the timestamp when the archive is created, the file size. These cannot be changed or removed.\nTo add tags to an archive, select the tags row, and click Edit.\n\nIdeally, a tag should contain no spaces or other special characters, except for hyphen (“-”) and underscores (“_“). If you want to add multiple tags, separate each one with a comma and no space.\n\n\n\n\n\n\nOnce you have added or edited the tags, click Add. You might have to click the tags row again for the updates to show.\n\nAdding new custom metadata\nTo add new custom metadata, click Add metadata. You will need to specify a title for the metadata, and the value.\n\n\n\n\n\n\nNaming conventions for metadata titles\nMetadata titles are case sensitive, meaning metadataTitle and metadatatitle will be taken as two different things.\nNo spaces or special characters are allowed. The only special character you can use is @.\nStandard metadata such as file, timestamp, size, and tags are reserved, so if you try to add a metadata title using these words, they will be ignored.\nExamples of acceptable metadata titles: authorName, authorname, @authorName.\n\n\n\n\nCreating new projects\nTo create a new project, either click New in the sidebar, or Projects &gt; New in the top menu.\nYou can also add, edit or remove metadata to projects. Select a project in the project sidebar, then click Edit from the project sidebar or from the top menu. The same rules apply to naming metadata titles."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
