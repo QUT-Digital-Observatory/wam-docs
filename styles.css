@@ -1,1 +1,8 @@
 /* css styles */
+
+.box-info {
+    background-color: #f9f9f9;
+    border-left: 4px solid #2196F3;
+    padding: 10px;
+    margin: 10px;
+}
