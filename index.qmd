@@ -15,7 +15,7 @@ WAM is being actively developed. Please share your feedback by emailing us at di
 
 ## Windows
 
-[WAM (Web Archive Manager)-0.0.1a](/files/WAM (Web Archive Manager)-0.0.1a.msi)
+[WAM (Web Archive Manager)-0.0.1a](/files/WAM (Web Archive Manager)-0.0.1.msi)
 
 ## MacOS
 
