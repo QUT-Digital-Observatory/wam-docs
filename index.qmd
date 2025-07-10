@@ -7,7 +7,18 @@ with web archives.
 
 WAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.
 
-WAM is being actively developed. Please share your feedback by emailing us at digitalobservatory@qut.edu.au. 
+WAM is being actively developed as a work package under the [Australian Internet Observatory (AIO)](https://internetobservatory.org.au/), funded by the [Australian Research Data Commons (ARDC)](https://ardc.edu.au/). Please share your feedback by emailing us at digitalobservatory@qut.edu.au.
+
+::: {layout-ncol=3 layout-valign="center"}
+
+![](assets/ado-logo-logotype-dark-cropped.png){width=200 fig-align="center"}
+
+![](assets/aio-banner-logo.png){width=200 fig-align="center"}
+
+![](assets/ARDC_logo_RGB.png){width=200 fig-align="center"}
+
+:::
+
 
 ## Installation
 

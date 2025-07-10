@@ -1,5 +1,38 @@
 ---
-title: "About"
+title: "Why web archives?"
 ---
 
-About this site
+A lot of research use data sourced from the World Wide Web, and it is easy to see why. 
+An unimaginable amount of data exist on the Web, much of is public and freely available. 
+Web data are anything that we can find on the Web. They can be content from social media platforms, news sites, 
+message boards, and review forums.
+
+On the other hand, Web data's ever-changing nature pose unique challenges to researchers, whose standards of research require data to be reproducible and replicable. Content on the Web can be easily modified or removed, meaning that data collected at one time might not be same if collected another time. Research that use Web data need to employ data collection methods that allow for this property of Web data.
+
+## Traditional methods
+
+One way that many researchers have used is taking screenshots of the Web page(s), using either their computer's screenshot tool or the numerous browser extensions (e.g. GoFullPage). This is a quick and intuitive way of capturing snapshots of Web content at specific points in time. However, screenshots suffer from several major limitations. First, screenshots are usually static files (PDF or images), which do not capture the interactive elements of web pages (e.g. links, navigations, pop-ups). Second, screenshots can also be challenging to organise. For example, researchers analysing pages from different review forums may have to manually group the screenshots by forums. And lastly, web scraping of structured data cannot be done from the screenshot.
+
+## Web archiving as a data collection method
+
+Web archiving has been used since the 90s, largely for preserving Web data in an archival format. Only recently has its potential as a research data collection technique been recognised. Web archives, for the most part, retain all features of a web page. This means that it captures all interactive elements on a page, and users can interact with the archived page as they would a live page. Web scraping can also be done on an archive.
+
+### The WARC and WACZ file formats
+
+Archived content are stored in [WARC](https://en.wikipedia.org/wiki/WARC_(file_format)) file format, which tends to be bundled with other files into a [WACZ (Web Archive Collection Zipped)](https://specs.webrecorder.net/wacz/1.1.1/#directories-and-files) file. The WARC and WACZ file formats contain not only the web data, but also other metadata (archived time and content type) that can aid data provenance. WARC and more recently WACZ are recognised as the standard for web archiving, so these can be saved and replayed using free tools such as the Wayback Machine or [ReplayWeb](https://replayweb.page/).
+
+## Tools for web archiving
+
+### Wayback Machine
+
+The [Wayback Machine](https://web.archive.org/) is the most well-known public archive of the Web. The Waymachine Machine began archiving the Internet in 1996, preserving all public Web content at regular intervals. This allows you to see how a web page changes over time.
+
+The Wayback Machine also offers useful tools to archive web pages of your choice, provided that they are public and not hidden behind login screens or paywalls. The easiest way to do so is via the [WM browser extension](https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak). All archived pages are stored publicly and can be accessed by anyone, although you can download a local copy of the archive file (WACZ) to your laptop.
+
+### Webrecorder
+
+For private pages or sensitive data that cannot be public, the [Webcorder](https://webrecorder.net/) offers a suite of tools for you to make your own archives. These free Chrome browser extentions enable you to archive pages and replay them.
+
+### pywb
+
+Researchers with programmatic skills can use pywb for maximum customisation and automation of the archiving process.
