@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About</title>
+<title>Why web archives?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -94,6 +94,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
+<span class="menu-text">Why web archives?</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -105,15 +109,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#traditional-methods" id="toc-traditional-methods" class="nav-link active" data-scroll-target="#traditional-methods">Traditional methods</a></li>
+  <li><a href="#web-archiving-as-a-data-collection-method" id="toc-web-archiving-as-a-data-collection-method" class="nav-link" data-scroll-target="#web-archiving-as-a-data-collection-method">Web archiving as a data collection method</a>
+  <ul class="collapse">
+  <li><a href="#the-warc-and-wacz-file-formats" id="toc-the-warc-and-wacz-file-formats" class="nav-link" data-scroll-target="#the-warc-and-wacz-file-formats">The WARC and WACZ file formats</a></li>
+  </ul></li>
+  <li><a href="#tools-for-web-archiving" id="toc-tools-for-web-archiving" class="nav-link" data-scroll-target="#tools-for-web-archiving">Tools for web archiving</a>
+  <ul class="collapse">
+  <li><a href="#wayback-machine" id="toc-wayback-machine" class="nav-link" data-scroll-target="#wayback-machine">Wayback Machine</a></li>
+  <li><a href="#webrecorder" id="toc-webrecorder" class="nav-link" data-scroll-target="#webrecorder">Webrecorder</a></li>
+  <li><a href="#pywb" id="toc-pywb" class="nav-link" data-scroll-target="#pywb">pywb</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Why web archives?</h1>
 </div>
 
 
@@ -130,9 +150,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<p>A lot of research use data sourced from the World Wide Web, and it is easy to see why. An unimaginable amount of data exist on the Web, much of is public and freely available. Web data are anything that we can find on the Web. They can be content from social media platforms, news sites, message boards, and review forums.</p>
+<p>On the other hand, Web data’s ever-changing nature pose unique challenges to researchers, whose standards of research require data to be reproducible and replicable. Content on the Web can be easily modified or removed, meaning that data collected at one time might not be same if collected another time. Research that use Web data need to employ data collection methods that allow for this property of Web data.</p>
+<section id="traditional-methods" class="level2">
+<h2 class="anchored" data-anchor-id="traditional-methods">Traditional methods</h2>
+<p>One way that many researchers have used is taking screenshots of the Web page(s), using either their computer’s screenshot tool or the numerous browser extensions (e.g.&nbsp;GoFullPage). This is a quick and intuitive way of capturing snapshots of Web content at specific points in time. However, screenshots suffer from several major limitations. First, screenshots are usually static files (PDF or images), which do not capture the interactive elements of web pages (e.g.&nbsp;links, navigations, pop-ups). Second, screenshots can also be challenging to organise. For example, researchers analysing pages from different review forums may have to manually group the screenshots by forums. And lastly, web scraping of structured data cannot be done from the screenshot.</p>
+</section>
+<section id="web-archiving-as-a-data-collection-method" class="level2">
+<h2 class="anchored" data-anchor-id="web-archiving-as-a-data-collection-method">Web archiving as a data collection method</h2>
+<p>Web archiving has been used since the 90s, largely for preserving Web data in an archival format. Only recently has its potential as a research data collection technique been recognised. Web archives, for the most part, retain all features of a web page. This means that it captures all interactive elements on a page, and users can interact with the archived page as they would a live page. Web scraping can also be done on an archive.</p>
+<section id="the-warc-and-wacz-file-formats" class="level3">
+<h3 class="anchored" data-anchor-id="the-warc-and-wacz-file-formats">The WARC and WACZ file formats</h3>
+<p>Archived content are stored in <a href="https://en.wikipedia.org/wiki/WARC_(file_format)">WARC</a> file format, which tends to be bundled with other files into a <a href="https://specs.webrecorder.net/wacz/1.1.1/#directories-and-files">WACZ (Web Archive Collection Zipped)</a> file. The WARC and WACZ file formats contain not only the web data, but also other metadata (archived time and content type) that can aid data provenance. WARC and more recently WACZ are recognised as the standard for web archiving, so these can be saved and replayed using free tools such as the Wayback Machine or <a href="https://replayweb.page/">ReplayWeb</a>.</p>
+</section>
+</section>
+<section id="tools-for-web-archiving" class="level2">
+<h2 class="anchored" data-anchor-id="tools-for-web-archiving">Tools for web archiving</h2>
+<section id="wayback-machine" class="level3">
+<h3 class="anchored" data-anchor-id="wayback-machine">Wayback Machine</h3>
+<p>The <a href="https://web.archive.org/">Wayback Machine</a> is the most well-known public archive of the Web. The Waymachine Machine began archiving the Internet in 1996, preserving all public Web content at regular intervals. This allows you to see how a web page changes over time.</p>
+<p>The Wayback Machine also offers useful tools to archive web pages of your choice, provided that they are public and not hidden behind login screens or paywalls. The easiest way to do so is via the <a href="https://chromewebstore.google.com/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak">WM browser extension</a>. All archived pages are stored publicly and can be accessed by anyone, although you can download a local copy of the archive file (WACZ) to your laptop.</p>
+</section>
+<section id="webrecorder" class="level3">
+<h3 class="anchored" data-anchor-id="webrecorder">Webrecorder</h3>
+<p>For private pages or sensitive data that cannot be public, the <a href="https://webrecorder.net/">Webcorder</a> offers a suite of tools for you to make your own archives. These free Chrome browser extentions enable you to archive pages and replay them.</p>
+</section>
+<section id="pywb" class="level3">
+<h3 class="anchored" data-anchor-id="pywb">pywb</h3>
+<p>Researchers with programmatic skills can use pywb for maximum customisation and automation of the archiving process.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
