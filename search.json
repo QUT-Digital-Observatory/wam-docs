@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Web Archive Manager (WAM)",
     "section": "",
-    "text": "The Web Archive Manager (WAM) is part of the toolkit developed by the Digital Observatory to aid researchers in working with web archives.\nWAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.\nWAM is being actively developed as a work package under the Australian Internet Observatory (AIO), funded by the Australian Research Data Commons (ARDC). Please share your feedback by emailing us at digitalobservatory@qut.edu.au."
+    "text": "The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives.\nWAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.\nWAM is developed by QUT Digital Observatory, as part of the Australian Internet Observatory (AIO). AIO received co-investment (doi.org/10.3565/hjrp-b141) from the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nPlease share your feedback by emailing us at digitalobservatory@qut.edu.au."
   },
   {
     "objectID": "index.html#installation",
