@@ -1,6 +1,8 @@
 # Preview
 
-Quarto is required.
+[Quarto](https://quarto.org/) is required.
+
+To preview the site:
 
 ```bash
 quarto preview
