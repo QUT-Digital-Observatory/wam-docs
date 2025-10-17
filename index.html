@@ -115,13 +115,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a>
-  <ul class="collapse">
-  <li><a href="#importing-archives" id="toc-importing-archives" class="nav-link" data-scroll-target="#importing-archives">Importing archives</a></li>
-  <li><a href="#replaying-archives" id="toc-replaying-archives" class="nav-link" data-scroll-target="#replaying-archives">Replaying archives</a></li>
-  <li><a href="#adding-metadata" id="toc-adding-metadata" class="nav-link" data-scroll-target="#adding-metadata">Adding metadata</a></li>
-  <li><a href="#creating-new-projects" id="toc-creating-new-projects" class="nav-link" data-scroll-target="#creating-new-projects">Creating new projects</a></li>
-  </ul></li>
+  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting started</a></li>
   </ul>
 </nav>
     </div>
@@ -147,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives.</p>
+<p>The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives. Our aim is to enable usage of archives as a research data source.</p>
 <p>WAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.</p>
 <p>WAM is developed by <a href="https://www.digitalobservatory.net.au/">QUT Digital Observatory</a>, as part of the <a href="https://internetobservatory.org.au/">Australian Internet Observatory (AIO)</a>. AIO received co-investment (<a href="https://doi.org/10.3565/hjrp-b141">doi.org/10.3565/hjrp-b141</a>) from the Australian Research Data Commons (ARDC) through the <a href="https://ardc.edu.au/hass-and-indigenous-research-data-commons/">HASS and Indigenous Research Data Commons</a>. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).</p>
 <p>Please share your feedback by emailing us at digitalobservatory@qut.edu.au.</p>
@@ -172,11 +166,12 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="assets/ardc-banner-logo.svg" class="img-fluid"></p>
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
+<p>WAM is currently available in Windows only. Click on the link below to download the installer.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Windows</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Linux</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><a href="./files/WAM (Web Archive Manager)-0.0.1.msi">WAM (Web Archive Manager)-0.0.1a</a></p>
+<p><a href="https://drive.google.com/file/d/1D_degpnk-W2s6BRSMHjlWNo-3ggaddZD/view?usp=drive_link">WAM (Web Archive Manager)-0.0.1a</a></p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>Currently unavailable</p>
@@ -189,61 +184,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="getting-started" class="level2">
 <h2 class="anchored" data-anchor-id="getting-started">Getting started</h2>
-<p>In WAM, you manage web archives by <strong>projects</strong>. A default project already exists when you start the application.</p>
-<section id="importing-archives" class="level3">
-<h3 class="anchored" data-anchor-id="importing-archives">Importing archives</h3>
-<p>To import archives into your project, select <strong>File</strong> &gt; <strong>Import archives</strong>. Only files with .warc and wacz extensions are accepted.</p>
-<p><img src="assets/import-archive.png" class="img-fluid"></p>
-<p>If the archives are imported successfully, you will see them in the right table.</p>
-</section>
-<section id="replaying-archives" class="level3">
-<h3 class="anchored" data-anchor-id="replaying-archives">Replaying archives</h3>
-<p>To replay an imported archive, select the archive and click <strong>Replay</strong>.</p>
-<p><img src="assets/replay-archive.png" class="img-fluid"></p>
-<p>Once in the replay view, you will see a list of recorded pages. If a page is recorded multiple times, you will see all of them in this list. To view only the latest version, tick <strong>Deduplicate pages</strong>.</p>
-<p>To replay a page, simply click on the page. To go back to the page list, click <strong>Back to List</strong>.</p>
-<p><img src="assets/replayed-view.png" class="img-fluid"></p>
-</section>
-<section id="adding-metadata" class="level3">
-<h3 class="anchored" data-anchor-id="adding-metadata">Adding metadata</h3>
-<p>In addition to web archive’s standard metadata, You can annotate your archives by adding <strong>custom metadata</strong>.</p>
-<p>To view the archive’s existing data, in the archive view, select an archive and click <strong>Edit metadata</strong>.</p>
-<p><img src="assets/archive-metadata.png" class="img-fluid"></p>
-<p>The standard metadata are file name, the timestamp when the archive is created, the file size. These cannot be changed or removed.</p>
-<p>To add tags to an archive, select the tags row, and click <strong>Edit</strong>.</p>
-<div class="box-info">
-<p>Ideally, a tag should contain no spaces or other special characters, except for hyphen (“-”) and underscores (“_“). If you want to add multiple tags, separate each one with a comma and no space.</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/archive-tags.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-<p>Once you have added or edited the tags, click <strong>Add</strong>. You might have to click the tags row again for the updates to show.</p>
-<section id="adding-new-custom-metadata" class="level4">
-<h4 class="anchored" data-anchor-id="adding-new-custom-metadata">Adding new custom metadata</h4>
-<p>To add new custom metadata, click <strong>Add metadata</strong>. You will need to specify a title for the metadata, and the value.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/add-new-archive-metadata.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
 <section id="naming-conventions-for-metadata-titles" class="level5 box-info">
 <h5 class="anchored" data-anchor-id="naming-conventions-for-metadata-titles">Naming conventions for metadata titles</h5>
-<p>Metadata titles are case sensitive, meaning metadataTitle and metadatatitle will be taken as two different things.</p>
+<p>Metadata titles are case sensitive, meaning <code>metadataTitle</code> and <code>metadatatitle</code> will be taken as two different words.</p>
 <p>No spaces or special characters are allowed. The only special character you can use is @.</p>
 <p>Standard metadata such as file, timestamp, size, and tags are reserved, so if you try to add a metadata title using these words, they will be ignored.</p>
 <p><strong>Examples of acceptable metadata titles</strong>: authorName, authorname, <span class="citation" data-cites="authorName">@authorName</span>.</p>
 </section>
-</section>
-</section>
-<section id="creating-new-projects" class="level3">
-<h3 class="anchored" data-anchor-id="creating-new-projects">Creating new projects</h3>
-<p>To create a new project, either click <strong>New</strong> in the sidebar, or <strong>Projects</strong> &gt; <strong>New</strong> in the top menu.</p>
-<p>You can also add, edit or remove metadata to projects. Select a project in the project sidebar, then click <strong>Edit</strong> from the project sidebar or from the top menu. The same rules apply to naming metadata titles.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
