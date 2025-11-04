@@ -32,7 +32,7 @@ WAM is currently available in Windows only. Click on the link below to download 
 
 ## Windows
 
-[WAM (Web Archive Manager)-0.0.1a](https://drive.google.com/file/d/1D_degpnk-W2s6BRSMHjlWNo-3ggaddZD/view?usp=drive_link)
+[WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
 ## MacOS
 
