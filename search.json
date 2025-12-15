@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Web Archive Manager (WAM)",
+    "section": "",
+    "text": "The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives. Our aim is to enable usage of archives as a research data source.\nWAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.\nWAM is developed by QUT Digital Observatory, as part of the Australian Internet Observatory (AIO). AIO received co-investment (doi.org/10.3565/hjrp-b141) from the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nPlease share your feedback by emailing us at digitalobservatory@qut.edu.au."
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "Web Archive Manager (WAM)",
+    "section": "Installation",
+    "text": "Installation\nWAM is currently available in Windows only. Click on the link below to download the installer.\n\nWindowsmacOS (ARM)Linux (Debian)\n\n\nYou can install WAM on Windows via the installer, or by running the executable.\nWAM (Web Archive Manager)-0.0.1a\n\n\nWAM (Web Archive Manager)-0.0.1a\nIf you are installing WAM for the first time, you might have to allow WAM to be run on your Mac.\n\nInstall WAM from the disk image file by dragging the app to the Applications directory\nOpen Terminal (you can find this in the Finder under Applications &gt; Utilities)\nIn your Terminal, run the following line:\nxattr -d com.apple.quarantine /Applications/wam.app\nRestart WAM\n\n\n\nWAM (Web Archive Manager)-0.0.1a"
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "Web Archive Manager (WAM)",
+    "section": "Getting started",
+    "text": "Getting started\n\nNaming conventions for metadata titles\nMetadata titles are case sensitive, meaning metadataTitle and metadatatitle will be taken as two different words.\nNo spaces or special characters are allowed. The only special character you can use is @.\nStandard metadata such as file, timestamp, size, and tags are reserved, so if you try to add a metadata title using these words, they will be ignored.\nExamples of acceptable metadata titles: authorName, authorname, @authorName."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Why web archives?",
@@ -26,26 +47,5 @@
     "title": "Why web archives?",
     "section": "Tools for web archiving",
     "text": "Tools for web archiving\n\nWayback Machine\nThe Wayback Machine is the most well-known public archive of the Web. The Waymachine Machine began archiving the Internet in 1996, preserving all public Web content at regular intervals. This allows you to see how a web page changes over time.\nThe Wayback Machine also offers useful tools to archive web pages of your choice, provided that they are public and not hidden behind login screens or paywalls. The easiest way to do so is via the WM browser extension. All archived pages are stored publicly and can be accessed by anyone, although you can download a local copy of the archive file (WACZ) to your laptop.\n\n\nWebrecorder\nFor private pages or sensitive data that cannot be public, the Webcorder offers a suite of tools for you to make your own archives. These free Chrome browser extentions enable you to archive pages and replay them.\n\n\npywb\nResearchers with programmatic skills can use pywb for maximum customisation and automation of the archiving process."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Web Archive Manager (WAM)",
-    "section": "",
-    "text": "The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives. Our aim is to enable usage of archives as a research data source.\nWAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.\nWAM is developed by QUT Digital Observatory, as part of the Australian Internet Observatory (AIO). AIO received co-investment (doi.org/10.3565/hjrp-b141) from the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nPlease share your feedback by emailing us at digitalobservatory@qut.edu.au."
-  },
-  {
-    "objectID": "index.html#installation",
-    "href": "index.html#installation",
-    "title": "Web Archive Manager (WAM)",
-    "section": "Installation",
-    "text": "Installation\nWAM is currently available in Windows only. Click on the link below to download the installer.\n\nWindowsmacOS (ARM)Linux (Debian)\n\n\nYou can install WAM on Windows via the installer, or by running the executable.\nWAM (Web Archive Manager)-0.0.1a\n\n\nWAM (Web Archive Manager)-0.0.1a\nIf you are installing WAM for the first time, you might have to allow WAM to be run on your MAC.\n\nStep 1: Open Terminal\nStep 2: In your Terminal, run the following line:\n\nxattr -d com.apple.quarantine /Applications/wam.app\n\n\nWAM (Web Archive Manager)-0.0.1a"
-  },
-  {
-    "objectID": "index.html#getting-started",
-    "href": "index.html#getting-started",
-    "title": "Web Archive Manager (WAM)",
-    "section": "Getting started",
-    "text": "Getting started\n\nNaming conventions for metadata titles\nMetadata titles are case sensitive, meaning metadataTitle and metadatatitle will be taken as two different words.\nNo spaces or special characters are allowed. The only special character you can use is @.\nStandard metadata such as file, timestamp, size, and tags are reserved, so if you try to add a metadata title using these words, they will be ignored.\nExamples of acceptable metadata titles: authorName, authorname, @authorName."
   }
 ]
