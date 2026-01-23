@@ -5,9 +5,11 @@ title: "Web Archive Manager (WAM)"
 The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working
 with web archives. Our aim is to enable usage of archives as a research data source.
 
-WAM allows you to organise, replay, and annotate your web archives (.wacz or .warc).
-What sets WAM apart from other archive tools is the ability to annotate web pages within an archive.
-For certain types of web pages, you can even annotate specific sections on a page.
+Below are what you can do in WAM:
+
+- [Organise and manage web archives](#organise-and-manage-web-archives)
+- [Replay web archives](#replay-web-archives)
+- [Annotate archived web content](#annotate-archived-web-content)
 
 WAM is developed by [QUT Digital Observatory](https://www.digitalobservatory.net.au/),
 as part of the [Australian Internet Observatory (AIO)](https://internetobservatory.org.au/).
@@ -60,6 +62,29 @@ If you are installing WAM for the first time, you might have to allow WAM to be 
 [WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
 :::
+
+## Features
+
+### Organise and manage web archives
+
+A WAM **project** allows you to store related archives in one dedicated space.
+The project can be exported as a research artifact, e.g. RO Crate, to be shared with other researchers.
+You can also add your own custom metadata to archive files.
+
+![](/assets/wam-project.png)
+
+### Replay web archives
+
+In WAM, you can replay the pages you've archived.
+
+![](/assets/wam-replay.png)
+
+### Annotate archived web content
+
+When replaying an archived page, you can **annotate** the entire page or specific sections within the page by
+adding custom annotations. In other words, annotation enables qualitative coding of archived web content.
+
+![](/assets/wam-annotation.png)
 
 ## Getting started
 
