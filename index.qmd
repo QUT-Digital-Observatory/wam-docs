@@ -43,14 +43,17 @@ You can install WAM on Windows via the installer, or by running the executable.
 
 [WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
-If you are installing WAM for the first time, you might have to allow WAM to be run on your MAC.
+If you are installing WAM for the first time, you might have to allow WAM to be run on your Mac.
 
-1. Step 1: Open Terminal
-2. Step 2: In your Terminal, run the following line:
+1. Install WAM from the disk image file by dragging the app to the Applications directory
+2. Open Terminal (you can find this in the Finder under Applications > Utilities)
+3. In your Terminal, run the following line:
 
-```bash
-xattr -d com.apple.quarantine /Applications/wam.app
-```
+   ```bash
+   xattr -d com.apple.quarantine /Applications/wam.app
+   ```
+
+4. Restart WAM
 
 ## Linux (Debian)
 
