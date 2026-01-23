@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Web Archive Manager (WAM)",
     "section": "",
-    "text": "The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives. Our aim is to enable usage of archives as a research data source.\nWAM allows you to organise, replay, and annotate your web archives (.wacz or .warc). What sets WAM apart from other archive tools is the ability to annotate web pages within an archive. For certain types of web pages, you can even annotate specific sections on a page.\nWAM is developed by QUT Digital Observatory, as part of the Australian Internet Observatory (AIO). AIO received co-investment (doi.org/10.3565/hjrp-b141) from the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nPlease share your feedback by emailing us at digitalobservatory@qut.edu.au."
+    "text": "The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working with web archives. Our aim is to enable usage of archives as a research data source.\nBelow are what you can do in WAM:\nWAM is developed by QUT Digital Observatory, as part of the Australian Internet Observatory (AIO). AIO received co-investment (doi.org/10.3565/hjrp-b141) from the Australian Research Data Commons (ARDC) through the HASS and Indigenous Research Data Commons. The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).\nPlease share your feedback by emailing us at digitalobservatory@qut.edu.au."
   },
   {
     "objectID": "index.html#installation",
@@ -40,6 +40,13 @@
     "title": "Web Archive Manager (WAM)",
     "section": "Installation",
     "text": "Installation\nWAM is currently available in Windows only. Click on the link below to download the installer.\n\nWindowsmacOS (ARM)Linux (Debian)\n\n\nYou can install WAM on Windows via the installer, or by running the executable.\nWAM (Web Archive Manager)-0.0.1a\n\n\nWAM (Web Archive Manager)-0.0.1a\nIf you are installing WAM for the first time, you might have to allow WAM to be run on your Mac.\n\nInstall WAM from the disk image file by dragging the app to the Applications directory\nOpen Terminal (you can find this in the Finder under Applications &gt; Utilities)\nIn your Terminal, run the following line:\nxattr -d com.apple.quarantine /Applications/wam.app\nRestart WAM\n\n\n\nWAM (Web Archive Manager)-0.0.1a"
+  },
+  {
+    "objectID": "index.html#features",
+    "href": "index.html#features",
+    "title": "Web Archive Manager (WAM)",
+    "section": "Features",
+    "text": "Features\n\nOrganise and manage web archives\nA WAM project allows you to store related archives in one dedicated space. The project can be exported as a research artifact, e.g. RO Crate, to be shared with other researchers. You can also add your own custom metadata to archive files.\n\n\n\nReplay web archives\nIn WAM, you can replay the pages you’ve archived.\n\n\n\nAnnotate archived web content\nWhen replaying an archived page, you can annotate the entire page or specific sections within the page by adding custom annotations. In other words, annotation enables qualitative coding of archived web content."
   },
   {
     "objectID": "index.html#getting-started",
