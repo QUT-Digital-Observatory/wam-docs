@@ -5,13 +5,17 @@ title: "Web Archive Manager (WAM)"
 The Web Archive Manager (WAM) is part of the toolkit to aid researchers in working
 with web archives. Our aim is to enable usage of archives as a research data source.
 
-WAM allows you to organise, replay, and annotate your archive files (.wacz or .warc). You can also use WAM to scrape data into structured formats.
+WAM allows you to organise, replay, and annotate your web archives (.wacz or .warc).
+What sets WAM apart from other archive tools is the ability to annotate web pages within an archive.
+For certain types of web pages, you can even annotate specific sections on a page.
 
-WAM is developed by [QUT Digital Observatory](https://www.digitalobservatory.net.au/), as part of the [Australian Internet Observatory (AIO)](https://internetobservatory.org.au/). AIO received co-investment ([doi.org/10.3565/hjrp-b141](https://doi.org/10.3565/hjrp-b141)) from the Australian Research Data Commons (ARDC) through the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/). The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).
+WAM is developed by [QUT Digital Observatory](https://www.digitalobservatory.net.au/),
+as part of the [Australian Internet Observatory (AIO)](https://internetobservatory.org.au/).
+AIO received co-investment ([doi.org/10.3565/hjrp-b141](https://doi.org/10.3565/hjrp-b141))
+from the Australian Research Data Commons (ARDC) through the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/).
+The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).
 
-
-
-Please share your feedback by emailing us at digitalobservatory@qut.edu.au.
+Please share your feedback by emailing us at <digitalobservatory@qut.edu.au>.
 
 ::: {layout-ncol=2 layout-valign="center"}
 
@@ -22,7 +26,6 @@ Please share your feedback by emailing us at digitalobservatory@qut.edu.au.
 :::
 
 ![](assets/ardc-banner-logo.svg)
-
 
 ## Installation
 
@@ -44,6 +47,7 @@ If you are installing WAM for the first time, you might have to allow WAM to be 
 
 1. Step 1: Open Terminal
 2. Step 2: In your Terminal, run the following line:
+
 ```bash
 xattr -d com.apple.quarantine /Applications/wam.app
 ```
@@ -58,7 +62,7 @@ xattr -d com.apple.quarantine /Applications/wam.app
 
 ::: {.box-info}
 
-##### Naming conventions for metadata titles
+### Naming conventions for metadata titles
 
 Metadata titles are case sensitive, meaning `metadataTitle` and `metadatatitle` will be taken as two different words.
 
