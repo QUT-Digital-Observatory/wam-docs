@@ -17,7 +17,7 @@ AIO received co-investment ([doi.org/10.3565/hjrp-b141](https://doi.org/10.3565/
 from the Australian Research Data Commons (ARDC) through the [HASS and Indigenous Research Data Commons](https://ardc.edu.au/hass-and-indigenous-research-data-commons/).
 The ARDC is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS).
 
-Please share your feedback by emailing us at <digitalobservatory@qut.edu.au>.
+Please share your feedback via this [feedback form](https://bit.ly/wam-feedback) or by emailing us at <digitalobservatory@qut.edu.au>.
 
 ::: {layout-ncol=2 layout-valign="center"}
 
@@ -39,11 +39,11 @@ WAM is currently available in Windows only. Click on the link below to download 
 
 You can install WAM on Windows via the installer, or by running the executable.
 
-[WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
+[WAM (Web Archive Manager)-0.1.0](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
 ## macOS (ARM)
 
-[WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
+[WAM (Web Archive Manager)-0.1.0](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
 If you are installing WAM for the first time, you might have to allow WAM to be run on your Mac.
 
@@ -59,7 +59,7 @@ If you are installing WAM for the first time, you might have to allow WAM to be 
 
 ## Linux (Debian)
 
-[WAM (Web Archive Manager)-0.0.1a](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
+[WAM (Web Archive Manager)-0.1.0](https://github.com/QUT-Digital-Observatory/wam-docs/releases)
 
 :::
 
@@ -100,3 +100,9 @@ Standard metadata such as file, timestamp, size, and tags are reserved, so if yo
 
 **Examples of acceptable metadata titles**: authorName, authorname, @authorName.
 :::
+
+## Feedback
+
+WAM is still in its early stage of development and prototyping.
+Therefore, we value all kinds of user feedback which will help inform future improvements to the software.
+Please leave your comments via [https://bit.ly/wam-feedback](https://bit.ly/wam-feedback).
